@@ -15,3 +15,7 @@ Thumbs.db
 
 # Excel 示例/业务数据（如需提交可删除此行）
 *.xlsx
+
+# 业务/敏感数据：含 API Key 与图片清单，绝不入库
+world_cup_avatar.json
+image_groups_*.json

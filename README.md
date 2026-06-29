@@ -4,8 +4,11 @@
 
 ## 在线访问
 
-- **GitHub Pages**：<https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/>
+- **图片分类工具**：<https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/>
+- **配置合并器**：<https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/merge-config.html>
 - EdgeOne Pages：<https://wxad-ipworkshop-pickpictures-7s2vs437.edgeone.dev>
+
+> `merge-config.html` 用于把工具导出的 `image_groups_*.json` 和现有 `world_cup_avatar.json` 自动合并，避免手写括号出错。全程本地运行，不上传任何数据。
 
 ## 目录结构
 
