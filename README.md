@@ -4,11 +4,16 @@
 
 ## 在线访问
 
-- **图片分类工具**：<https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/>
-- **配置合并器**：<https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/merge-config.html>
-- EdgeOne Pages：<https://wxad-ipworkshop-pickpictures-7s2vs437.edgeone.dev>
+本仓库部署了两个独立站点，URL 互不干扰：
 
-> `merge-config.html` 用于把工具导出的 `image_groups_*.json` 和现有 `world_cup_avatar.json` 自动合并，避免手写括号出错。全程本地运行，不上传任何数据。
+| 站点 | 用途 | 地址 |
+|---|---|---|
+| 图片分类工具 | query 图人工分类 / 打标 | <https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/> |
+| 配置合并器 | 把导出的 groups 合并进 world_cup_avatar.json | <https://yaojz9611-max.github.io/wxad-ipworkshop-pickpictures/merge-config/> |
+
+另外 EdgeOne 镜像（仅图片分类工具）：<https://wxad-ipworkshop-pickpictures-7s2vs437.edgeone.dev>
+
+> 配置合并器全程本地运行，不上传任何数据，避免手写括号出错。
 
 ## 目录结构
 
