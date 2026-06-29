@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# CodeBuddy
+.codebuddy/
+
+# Logs
+*.log
+
+# Excel 示例/业务数据（如需提交可删除此行）
+*.xlsx
