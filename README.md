@@ -14,19 +14,19 @@
 ├── image-classifier.html   # 源码页面（可直接用浏览器打开）
 ├── assets/                 # 依赖资源（xlsx 解析库等）
 │   └── xlsx.full.min.js
-└── dist/                   # 构建产物，用于部署
+└── docs/                   # 构建产物（即 GitHub Pages 部署目录）
     ├── index.html
     └── assets/
 ```
 
 ## 本地预览
 
-直接用浏览器打开 `image-classifier.html` 或 `dist/index.html` 即可。
+直接用浏览器打开 `image-classifier.html` 或 `docs/index.html` 即可。
 
 ## 部署
 
-`dist/` 目录可直接部署到任意静态托管平台：
+`docs/` 目录可直接部署到任意静态托管平台：
 
-- GitHub Pages（当前已启用，Source = `main` / `/dist`）
+- GitHub Pages（当前已启用，Source = `main` / `/docs`）
 - EdgeOne Pages
 - Vercel / Netlify 等
